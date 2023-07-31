@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Satisfy&family=Schibsted+Grotesk&display=swap');
+
+.titulo1{
+    background-color: rgb(130, 189, 238);
+    font-size: 2rem;
+    color: rgb(201, 30, 228);
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+}
+.titulo2{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background-color:rgb(130, 189, 238);
+    color: rgb(201, 30, 228);
+}
+.titulo3{
+    font-family: 'Roboto Mono', monospace;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.button{
+     background-color: transparent;
+     color: grey;
+     font-family: 'Schibsted Grotesk', sans-serif;
+     border-radius: 25px;
+}
+button:hover{
+    background-color: rgb(207, 130, 238);
+}
+body{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table{
+    border: 1px solid;
+    text-align: center;
+}
+.table th {
+    background-color: rgb(186, 23, 186);
+}
+.table td:hover{
+    background-color: #9599E2;
+    color: black;
+}
+.table th:hover{
+    background-color: #9599E2;
+}
+caption{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
